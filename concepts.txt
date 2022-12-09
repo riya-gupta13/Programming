@@ -1,0 +1,60 @@
+x=[],y=[]
+zip---(x,y)
+reduce(fxn,iterable)=single value
+map(fxn,iterable)-evaluates values one by one
+filter(fxn,iterable)---value where true returns
+decimal to binary: num----binary = "{0:b}".format(int(num)) or b = bin(n)[2:]
+binary to decimal:decimal = int(num, 2)
+all(j in allow for j in l):
+all(dct1[el] >= dct2[el] for el in dct2):
+ [for i in range(0, len(s)+1):
+        for j in range(i):
+            if len(s[j:i]) == 3:
+                l.append(s[j:i])]---------all substrings
+list(combinations(s,length)---get all subsets
+TO REMOVE ELE FROM DICTIONARY=d.pop(ele)
+dct2 = collections.Counter(word)--count of words in string =dictionary
+#for common elements
+    for i in words:
+        k = []
+        for j in i:
+            if j in l:
+                k.append(j)
+                l.remove(j)
+        l = k
+to make pairs---- tuple(zip(nums[0::2], nums[1::2]))
+
+to sort lists of list based on 1 element= l2 = sorted(l, key=itemgetter(1))
+
+to sort dictionary based on values == {k: v for k, v in sorted(d.items(), key=lambda item: item[1])}
+                                       or sorted(d.items(), key=lambda item: item[1])
+create dictionary :    d.__setitem__(j[0], j[1]) or d.setdefault(i[0], (i[1]))
+
+n = len(matrix),  m = len(matrix[0])---for matrix
+
+transpose of matrix :  rez = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
+                        or    [ for row in range(n):
+                                    print(row)
+                                    for col in range(row, n):
+                                        matrix[col][row], matrix[row][col] = matrix[row][col], matrix[col][row] ]
+size of matrix:n     res=[[0]*cols]*rows
+
+matrix diagonals = i==j or i=m-1-j
+
+move elements to beginning of list:  P.insert(0, P.pop(ind))
+
+to find character set of each word=  char_set = [set(words[i]) for i in range(n)]
+
+
+BINARY SEARCH MID ELEMENT BASED ON INDEX:   mid = start + (end-start)//2
+
+max=float('-inf')
+min=float('inf')
+
+--------------------------------------
+Not Boring Movies
+Big Countries
+Valid palindrome
+
+Subset- order matters
+subsequence-we can skip but order matters
