@@ -26,3 +26,10 @@ def middleNode(self, head: ListNode) -> ListNode:
         ans = ans.next
         l += 1
     return ans
+
+
+
+
+
+
+

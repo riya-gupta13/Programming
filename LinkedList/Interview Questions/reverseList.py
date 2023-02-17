@@ -50,3 +50,12 @@ l.next = x
 x.next = y
 y.next = z
 print(L.reverseListRec(l).val)
+
+
+
+
+
+
+
+
+

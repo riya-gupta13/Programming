@@ -11,3 +11,18 @@ l = []
 str = "abcd"
 print(permutation(str))
 
+
+# another approach
+def permute(s):
+    out = []
+    # Base case
+    if len(s) == 1:
+        out = [s]
+    else:
+        # Iterate over all characters in the string
+        for i, c in enumerate(s):
+            # For every character, find all possible permutations of the remaining string
+            for perm in permute(s[:i] + s[i + 1:]):
+                # Add the current character to the permutations of the remaining string
+                out += [c + perm]
+    return out

@@ -1,5 +1,5 @@
 def luckyNumbers(matrix: list[list[int]]) -> list[int]:
-    ans=0
+    ans = 0
     n = len(matrix)
     m = len(matrix[0])
     for i in range(n):
@@ -19,6 +19,6 @@ def luckyNumbers(matrix: list[list[int]]) -> list[int]:
     return ans
 
 
-matrix = [[3,6],[7,1],[5,2],[4,8]]
+matrix = [[3, 6], [7, 1], [5, 2], [4, 8]]
 # Output: [15]
 luckyNumbers(matrix)

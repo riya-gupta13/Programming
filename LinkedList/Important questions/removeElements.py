@@ -16,3 +16,6 @@ class Solution:
                 prev = curr
             curr = nxt
         return dummy.next
+
+
+

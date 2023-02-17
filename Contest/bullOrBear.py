@@ -1,13 +1,15 @@
-# number=int(input())
-# x,y = input().split()
-# while number!=0:
-#     if int(x)>int(y):
-#         print("LOSS")
-#     elif int(x)<int(y):
-#         print("PROFIT")
-#     else:
-#         print("NEUTRAL")
-#     number-=1
+number=int(input())
+x,y = input().split()
+while number!=0:
+    if int(x)>int(y):
+        print("LOSS")
+    elif int(x)<int(y):
+        print("PROFIT")
+    else:
+        print("NEUTRAL")
+    number-=1
+
+# Practicing mcq questions
 import math
 import queue
 import threading

@@ -1,15 +1,25 @@
+
 #     *
 #    * *
 #   *   *
 #  *     *
 # *********
-n = 6
-for i in range(1, n):
-    for j in range(0, n - i):
-        print("#", end="")
-        if i+j==n:
-            for k in range(i):
-                print("*",end="")
-    for m in range(0, n - i):
-        print("#", end="")
-    print(" ")
+n = 5
+for i in range(n):
+    for j in range(n - i):
+        print(" ", end="")
+    for j in range(i * 2 + 1):
+        if i == n-1:
+            print("*", end="")
+        elif j == 0 or j == (i * 2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+
+
+
+
+
+

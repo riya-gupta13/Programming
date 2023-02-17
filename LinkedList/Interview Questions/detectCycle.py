@@ -19,3 +19,4 @@ def detectCycle(self, head: [ListNode]) -> [ListNode]:
         pointer = pointer.next
         fast = fast.next
     return pointer
+

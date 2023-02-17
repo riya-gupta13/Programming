@@ -29,7 +29,7 @@ class Stack:
         if self.isEmpty():
             return "Stack is already empty"
         else:
-            return self.list[len(self.list) - 1]
+            return self.list[- 1]
 
     def delete(self):
         self.list = None
@@ -41,4 +41,4 @@ customStack.push(2)
 customStack.push(3)
 customStack.pop()
 print(customStack.peek())
-print(customStack)
+# print(customStack)

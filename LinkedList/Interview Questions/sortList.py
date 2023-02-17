@@ -42,3 +42,4 @@ def merge(self, l1, l2):
     if l2:
         temp.next = l2
     return dummyNode.next
+
